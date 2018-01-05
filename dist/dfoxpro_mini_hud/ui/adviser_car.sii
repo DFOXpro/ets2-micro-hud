@@ -1,0 +1,238 @@
+﻿SiiNunit
+{
+ui::window : _nameless.0049e2f40 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ user_string_data: ""
+ fitting: false
+ my_children[]: _nameless._.adv.car.bcg
+ my_children[]: _nameless._.title
+ my_children[]: _nameless._.truck
+ my_children[]: _nameless._.trailer
+ my_children[]: _nameless._.trailer.dmg
+ my_children[]: _nameless._.truck.dmg
+ my_children[]: _nameless._.service.warning
+ my_children[]: _nameless._.call.911
+ coords_l: 555
+ coords_r: 885
+ coords_t: 900
+ coords_b: 0
+ area_l: 555
+ area_r: 885
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text_common : _nameless._.adv.car.bcg {
+ value: BF000000
+ look_template: txt.window.bcg_rect8
+ text: ""
+ coords_l: 555
+ coords_r: 885
+ coords_t: 214
+ coords_b: 28
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless._.title {
+ value: "<color value=@@clr_sel@@>@@assistance_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 557
+ coords_r: 757
+ coords_t: 208
+ coords_b: 186
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless._.truck {
+ value: "truck.mat|25"
+ look_template: txt.adv_damage
+ text: ""
+ coords_l: 616
+ coords_r: 700
+ coords_t: 156
+ coords_b: 117
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 900
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless._.trailer {
+ value: "trailer.mat|15"
+ look_template: txt.adv_damage
+ text: ""
+ coords_l: 719
+ coords_r: 847
+ coords_t: 156
+ coords_b: 117
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 920
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless._.trailer.dmg {
+ value: ""
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 720
+ coords_r: 844
+ coords_t: 115
+ coords_b: 78
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 930
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless._.truck.dmg {
+ value: "Damage: 6%"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 595
+ coords_r: 719
+ coords_t: 115
+ coords_b: 78
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 910
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::group : _nameless._.service.warning {
+ fitting: true
+ my_children: 2
+ my_children[0]: _nameless.010bc4961
+ my_children[1]: _nameless.010bc58d0
+ coords_l: 557
+ coords_r: 883
+ coords_t: 81
+ coords_b: 58
+ area_l: 557
+ area_r: 883
+ area_t: 81
+ area_b: 58
+ id: 940
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+ui::text_common : _nameless.010bc4961 {
+ value: "@@visit_service@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 81
+ coords_b: 58
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 941
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.service.warning
+}
+
+ui::text : _nameless.010bc58d0 {
+ text: "<img src=/material/ui/white.mat xscale=stretch yscale=stretch color=BF000000>"
+ coords_l: 557
+ coords_r: 883
+ coords_t: 81
+ coords_b: 58
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.service.warning
+}
+
+ui::button_common : _nameless._.call.911 {
+ value: "@@call_assistance_service@@|@@icon_call_assistance@@"
+ value2: ""
+ look_template: btn.adviser.cancel_job
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 557
+ coords_r: 883
+ coords_t: 55
+ coords_b: 32
+ area_l: 557
+ area_r: 883
+ area_t: 55
+ area_b: 32
+ id: 950
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e2f40
+}
+
+}

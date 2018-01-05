@@ -1,0 +1,53 @@
+SiiNunit
+{
+ui::window : _nameless.0049fb330 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ fitting: false
+ my_children: 1
+ my_children[0]: _nameless._.zoom.cycle
+ coords_l: 555
+ coords_r: 885
+ coords_t: 186
+ coords_b: 0
+ area_l: 555
+ area_r: 885
+ area_t: 186
+ area_b: 0
+ id: 0
+ layer: 1
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::button_common : _nameless._.zoom.cycle {
+ value: F2
+ value2: ""
+ look_template: btn.adviser.map_zoom
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1
+ coords_r: 0
+ coords_t: 0
+ coords_b: 1
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 710
+ layer: 2
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+}

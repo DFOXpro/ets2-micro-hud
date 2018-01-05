@@ -1,0 +1,240 @@
+SiiNunit
+{
+ui::window : _nameless.0049e3070 {
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ fitting: false
+ my_children[]: _nameless._.adv.job.bcg
+ my_children[]: _nameless._.title
+ my_children[]: _nameless._.txt1
+ my_children[]: _nameless._.txt2
+ my_children[]: _nameless._.txt3
+ my_children[]: _nameless._.txt4
+ my_children[]: _nameless._.txt5
+ my_children[]: _nameless._.txt6
+ my_children[]: _nameless._.cancel.job
+ my_children[]: _nameless._.txt.none
+ coords_l: 555
+ coords_r: 885
+ coords_t: 900
+ coords_b: 0
+ area_l: 555
+ area_r: 885
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui::text_common : _nameless._.adv.job.bcg {
+ value: BF000000
+ look_template: txt.window.bcg_rect8
+ text: ""
+ coords_l: 555
+ coords_r: 885
+ coords_t: 214
+ coords_b: 28
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.title {
+ value: "<color value=@@clr_sel@@>@@current_job_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 557
+ coords_r: 757
+ coords_t: 208
+ coords_b: 186
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt1 {
+ value: "@@cargo_name@@|@@cn_electronics@@"
+ look_template: txt.adv_line.gray
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 183
+ coords_b: 163
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 800
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt2 {
+ value: "@@dest@@|frankfurt - stokes"
+ look_template: txt.adv_line
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 163
+ coords_b: 143
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 810
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt3 {
+ value: "@@expected_on@@|Wed 18:45"
+ look_template: txt.adv_line.gray
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 143
+ coords_b: 123
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 820
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt4 {
+ value: "reward|15000E"
+ look_template: txt.adv_line
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 123
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 830
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt5 {
+ value: "time remaining|29:20"
+ look_template: txt.adv_line.gray
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 103
+ coords_b: 83
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 840
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt6 {
+ value: "next rest stop at|7:30"
+ look_template: txt.adv_line
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 83
+ coords_b: 63
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 850
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::button_common : _nameless._.cancel.job {
+ value: "@@cancel_current_job@@|@@icon_job_cancel@@"
+ value2: ""
+ look_template: btn.adviser.cancel_job
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 557
+ coords_r: 883
+ coords_t: 55
+ coords_b: 32
+ area_l: 557
+ area_r: 883
+ area_t: 55
+ area_b: 32
+ id: 890
+ layer: 4
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+ui::text_common : _nameless._.txt.none {
+ value: "| "
+ look_template: txt.adv_line
+ text: ""
+ coords_l: 557
+ coords_r: 883
+ coords_t: 163
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 860
+ layer: 5
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049e3070
+}
+
+}

@@ -1,0 +1,217 @@
+SiiNunit
+{
+ui::window : _nameless.0049fb330 {
+ window_handler: null
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ fitting: false
+ my_children: 7
+ my_children[0]: _nameless._.map.scene
+ my_children[1]: _nameless.004a04e70
+ my_children[2]: _nameless._.zoom.cycle
+ my_children[3]: _nameless._.eta
+ my_children[4]: _nameless._.speed.limit
+ my_children[5]: _nameless.217.5e80
+ my_children[6]: _nameless._.route_notify
+ coords_l: 1082
+ coords_r: 1408
+ coords_t: 282
+ coords_b: 108
+ area_l: 1082
+ area_r: 1408
+ area_t: 282
+ area_b: 108
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: null
+}
+
+ui_map : _nameless._.map.scene {
+ coords_l: 1082
+ coords_r: 1408
+ coords_t: 260
+ coords_b: 108
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 700
+ layer: 10
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::text_common : _nameless.004a04e70 {
+ value: "<color value=@@clr_sel@@>@@navigation_title@@"
+ look_template: txt.adv_title
+ text: ""
+ coords_l: 1082
+ coords_r: 1282
+ coords_t: 282
+ coords_b: 260
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::button_common : _nameless._.zoom.cycle {
+ value: F2
+ value2: ""
+ look_template: btn.adviser.map_zoom
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1347
+ coords_r: 1408
+ coords_t: 260
+ coords_b: 231
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 710
+ layer: 11
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::group : _nameless._.eta {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.004a04810
+ my_children[1]: _nameless._.eta.1
+ coords_l: 1087
+ coords_r: 1403
+ coords_t: 132
+ coords_b: 110
+ area_l: 1087
+ area_r: 1403
+ area_t: 132
+ area_b: 110
+ id: 750
+ layer: 13
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::text_common : _nameless.004a04810 {
+ value: B8101010
+ look_template: txt.window.bcg_rect
+ text: ""
+ coords_l: 1087
+ coords_r: 1403
+ coords_t: 132
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 11
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.eta
+}
+
+ui::text_common : _nameless._.eta.1 {
+ value: "1258 km|20 h 14 min|Mon 23:14 pm"
+ look_template: txt.adv_navi_eta
+ text: ""
+ coords_l: 1087
+ coords_r: 1403
+ coords_t: 132
+ coords_b: 110
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 740
+ layer: 12
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless._.eta
+}
+
+ui::text_common : _nameless._.speed.limit {
+ value: 30
+ look_template: txt.adv_navi_spd
+ text: ""
+ coords_l: 1088
+ coords_r: 1120
+ coords_t: 167
+ coords_b: 135
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 760
+ layer: 14
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::text_common : _nameless.217.5e80 {
+ value: FF00FF00
+ look_template: txt.bus_gforce
+ text: ""
+ coords_l: 1371
+ coords_r: 1403
+ coords_t: 167
+ coords_b: 135
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 761
+ layer: 14
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+ui::text_common : _nameless._.route_notify {
+ value: ""
+ look_template: null
+ text: ""
+ coords_l: 1091
+ coords_r: 1399
+ coords_t: 215
+ coords_b: 174
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 770
+ layer: 15
+ tab: -1
+ pointer: -1
+ apparent_depth: 0
+ my_parent: _nameless.0049fb330
+}
+
+}

@@ -1,0 +1,53 @@
+Nano HUD for ETS2
+
+[blue] This mod was built and tested on the standard game version 1.30.X
+
+This mod is a fork of ptr1ck's http://steamcommunity.com/sharedfiles/filedetails/?id=718966063
+
+Changes from original:
+- It uses half of space
+- It don't show:
+	- Truck Damage: Because it's in an information panel
+	- Current speed: Because it's in the dashboard
+	- Current gear: Because it's in the dashboard
+	- Fuel level: Because it's in the dashboard
+	- Game time: Because it's in the dashboard
+	- ETA: @TODO
+
+[red] Source @ github DFOXpro ets2-micro-hud
+
+[green] Text from original author:
+
+This is a minimalist user interface that changes the Adviser panels in the game by adding a bottom info bar and replacing the Navigator screen.
+All backgrounds are vector based to give a smooth uniform look.
+The interface was created so that you can maintain information on the screen in the smallest format possible without the Navigator screen showing.
+
+The Navigator screen (GPS) has been changed so that it toggles either on or off with F3.
+Hit F3 once to show the bottom bar and GPS, hit it again to hide the GPS so that you can use in-dash GPS unobstructed with the bottom bar.
+
+The new bottom bar has information shown for (from left to right):
+-Running line information
+-Mail
+-Money
+-Truck damage
+-Current speed with speeding indicator highlight
+-Current gear
+-Fuel level
+-Fatigue
+-Game time
+-ETA (now always shown with bar)
+
+Navigation screen:
+-Can be hidden independently from the bottom bar (F3)
+-Smooth, solid background.
+
+Information panels:
+-Relocated to be at steering wheel
+-Independent of the Navigation screen
+--Unfixable Minor Issue: Navigation screen will not update animation when an information panel is active.
+---In-dash GPS is not affected by this issue and will keep animating.
+
+This mod was developed with a single monitor. It may not display correctly if you span multiple screens with the game.
+Hemil's mod was used as a partial basis for this mod along with a lot of customization on my end.
+
+Credits: ptrick (steam); Hemil - http://forum.scssoft.com/viewtopic.php?f=34&t=157951
